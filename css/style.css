@@ -1,0 +1,350 @@
+@font-face {
+  src: url('../fonts/GothamRounded-Bold.otf');
+  font-family: gmBold;
+}
+@font-face {
+  src: url('../fonts/GothamRounded-Medium.otf');
+  font-family: gmMedium;
+}
+@font-face {
+  src: url('../fonts/GothamRounded-Book.otf');
+  font-family: gmBook;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  background-image: url('../images/night.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.textarea {
+  width: 60%;
+  margin: 0 auto;
+}
+ul {
+  padding: 0;
+  text-align: center;
+}
+ul li {
+  padding-left: 25px;
+  display: inline-block;
+  list-style: none;
+}
+ul li a {
+  font-family: gmBold;
+  text-decoration: none;
+  color: white;
+}
+ul li a:hover{
+  color: #16A085;
+}
+.logo {
+  margin-top: 25px;
+  padding-left: 5%;
+}
+.life {
+  margin: 0;
+  font-family: gmBold;
+  font-size: 45px;
+  color: white;
+  margin-top: 30%;
+  text-align: center;
+}
+.print {
+  text-align: center;
+  color: white;
+  font-family: gmMedium;
+  margin-bottom: 25%;
+}
+.btn {
+  margin-top: 40px;
+  background-color: #16A085;
+  border-style: none;
+  width: 130px;
+  font-family: gmBold;
+  height: 45px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.icons {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+.tfd {
+  color: white;
+  font-size: 22px;
+  padding-right: 10px;
+}
+.tw:hover{
+  cursor: pointer;
+  color: #50D0CB;
+  font-weight:bolder;
+}
+.fl:hover{
+  cursor: pointer;
+  color: #EE39F6;
+  font-weight: bolder;
+}
+.dr:hover{
+  cursor: pointer;
+  color: #EF6499;
+  font-weight: bolder;
+}
+.bg {
+  background-color: #F5F6F7;
+}
+.container {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.Represent {
+  width: 40%;
+  display: inline-block;
+}
+.text {
+  margin-top: 110px;
+  font-size: 22px;
+  font-family: gmBold;
+  color: #16A085;
+}
+.hand {
+  margin-top: 40px;
+  width: 58%;
+  display: inline-block;
+  vertical-align: top;
+}
+.dumytext {
+  font-family: gmBook;
+  color: #A6A7A7;
+  line-height: 26px;
+}
+.bold {
+  font-family: gmBold;
+  color: #828283;
+}
+.btn2 {
+  margin-top: 10px;
+}
+.mob {
+  width: 60%;
+  margin-top: 140px;
+  display: inline-block;
+}
+.text2 {
+  margin-top: 120px;
+  width: 39%;
+  display: inline-block;
+  vertical-align: top;
+}
+.design {
+  font-family: gmBold;
+  color: #16A085;
+  margin-top: 20px;
+}
+.number{
+  padding-top: 20px;
+  font-family: gmBold;
+  color: #2D2D2D;
+}
+.lr{
+  font-size: 30px;
+  padding-right: 10px;
+  color: #2D2D2D;
+}
+.arrows{
+  float: right;
+  margin-top: 80px;
+}
+.same{
+  margin-top: 120px;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 120px;
+  max-width: 100%;
+}
+.img1{
+  max-width: 100%;
+}
+.img2{
+  margin-left: 40px;
+  max-width: 100%;
+}
+.img3{
+  margin-left: 90px;
+  max-width: 100%;
+}
+.our{
+  font-family: gmBold;
+  font-size: 20px;
+  color: #373737;
+}
+.med{
+  font-family: gmMedium;
+  color: #A6A7A7;
+  font-size: 16px;
+  line-height: 21px;
+}
+.emailsection{
+  background-image: url('../images/hand2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.textarea2{
+  padding-top: 350px;
+  text-align: center;
+  padding-bottom: 325px;
+}
+h2{
+  margin: 0;
+  font-family: gmBold;
+  color: white;
+  font-size: 30px;
+}
+.email{
+  border-radius: 5px;
+  border-style: none;
+  width: 300px;
+  margin-top: 30px;
+  height: 45px;
+  background-image: url('../images/tick.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+input-placeholder{
+  padding-left: 20px;
+}
+::-webkit-input-placeholder{
+  padding-left: 20px;
+  font-weight: bold;
+  font-family: gmMedium;
+}
+.downloadit{
+  width: 100%;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 115px;
+}
+.it{
+  margin-top: 0;
+  font-family: gmBold;
+  color: #373737;
+  font-size: 25px;
+}
+.loream{
+  color: #373737;
+  font-family: gmMedium;
+  line-height: 30px;
+}
+.aa{
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: none;
+  width: 230px;
+  margin-top: 30px;
+  height: 45px;
+  background-color: #1ABC9C;
+  color: white;
+  font-family: gmBold;
+  text-align: left;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+.apple{
+  background-image: url('../images/apple.jpg');
+}
+.android{
+  background-image: url('../images/android.jpg');
+}
+.foot{
+  margin-bottom: 20px;
+  width: 100%;
+}
+.credits{
+  display: inline-block;
+  font-family: gmBold;
+  color: #373737;
+}
+span{
+  color: #16A085;
+}
+.flogo{
+  margin-top: -25px;
+  float: right;
+  display: inline-block;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:1100px) {
+  .Represent{
+    width: 100%;
+    text-align: center;
+  }
+  .hand{
+    width: 100%;
+  }
+  .rep{
+    display: none;
+  }
+}
+@media (max-width:860px) {
+  .mob{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  ul li{
+    padding-left: 10px;
+  }
+  .logo{
+    padding-left: 10px;
+  }
+  .text2{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .same{
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .img2{
+    margin-left: 0px;
+  }
+  .img3{
+    margin-left: 0px;
+  }
+  .handimage{
+    max-width: 100%;
+  }
+}
+@media (max-width:742px) {
+  .textarea{
+    width: 100%;
+  }
+  .container{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media (max-width:460px) {
+  ul li{
+    display: block;
+    padding-top: 15px;
+  }
+  .greenmob{
+    max-width: 100%;
+  }
+}
